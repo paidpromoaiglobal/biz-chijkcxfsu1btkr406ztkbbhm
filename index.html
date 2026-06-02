@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#8B0000">
+<title>Pehnawa Fashion House – Ethnic &amp; Contemporary Clothing Store in Jaipur</title>
+<meta name="description" content="Visit Pehnawa Fashion House at Durgapura, Jaipur for the best collection of ethnic, bridal, and casual wear for men, women, and kids. Open daily 11 AM–9 PM. Call 096361 02080.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;color:#1a1209;background:#fdfcf7;-webkit-font-smoothing:antialiased}
+.wa-fab{position:fixed;bottom:24px;right:24px;z-index:9999;background:#25d366;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 24px rgba(37,211,102,.5);text-decoration:none;transition:transform .2s,box-shadow .2s}.wa-fab:hover{transform:scale(1.1);box-shadow:0 8px 32px rgba(37,211,102,.6)}
+[data-r]{opacity:0;transform:translateY(28px);transition:opacity .65s ease,transform .65s ease;}
+[data-r].r-in{opacity:1;transform:none;}
+[data-r][data-d="1"]{transition-delay:.1s;}[data-r][data-d="2"]{transition-delay:.22s;}
+[data-r][data-d="3"]{transition-delay:.34s;}[data-r][data-d="4"]{transition-delay:.46s;}
+[data-r][data-d="5"]{transition-delay:.58s;}[data-r][data-d="6"]{transition-delay:.70s;}
+.nav-s{box-shadow:0 2px 24px rgba(0,0,0,.12)!important;}
+nav{position:fixed;top:0;left:0;right:0;z-index:900;background:rgba(253,252,247,.97);backdrop-filter:blur(14px);border-bottom:1px solid #ede0c4;padding:0 5vw;display:flex;align-items:center;justify-content:space-between;height:64px;transition:box-shadow .3s}
+.nav-brand{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:700;color:#8B0000;letter-spacing:.06em}
+.nav-cta{background:#8B0000;color:#fff;padding:9px 22px;border-radius:2px;text-decoration:none;font-size:.78rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;transition:opacity .2s}
+.nav-cta:hover{opacity:.85}
+/* HERO */
+.hero{position:relative;height:100svh;min-height:600px;display:flex;align-items:center;overflow:hidden}
+.hero-bg{position:absolute;inset:-15%;width:130%;height:130%;background-image:url('https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=Ab43m-tsQtGJkLvsNhV-jp5LZ24vHrAwj-KZ9mmuUWBOiEMT0KVfj2N_aMBOnIom2R3Xt-36G6fSrGgLgYY9oi0VKN2AjayPL2fDsH6F39q5ehQwwrLrEu9emro2lIKbG4YoV6IxWf-ekkdt79kQSSH4nsbnCkikzu9OytoBzhs0J3n9O3KN8QPUH7JpJ6_M8GQjB8uN1K1H6VoMsKb9Bk67EY9DGwwQk8hYcnyQ-xB1JyUuklqsmPcwEGOfh6tO6Q5QBJAPyTPDBudzv0IjPfLLil0zVbk04HAy0KUMp_JeP0m3dQW-d2U3Ss-Wdip2zsSGQkx2fH6DvWnGRujZssJWVZ-TFW7AewxF8CE3822JQBPWDskVECm2kJsc2cZRR6MuPrGKLqM-DuYgUPaVv210PEs8JwtFhyYClgCja_x-Njph_BJJ5E6SDRZKyWrGug&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs');background-size:cover;background-position:center;will-change:transform}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(to right,rgba(8,5,0,.92) 0%,rgba(8,5,0,.6) 55%,rgba(8,5,0,.15) 100%)}
+.hero-content{position:relative;z-index:2;padding:0 5vw;max-width:580px;color:#fff}
+.hero-eyebrow{font-size:.68rem;letter-spacing:.24em;text-transform:uppercase;color:#D4AF37;margin-bottom:22px;font-weight:500}
+.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:700;line-height:1.15;margin-bottom:20px;letter-spacing:-.01em}
+.hero p{font-size:.97rem;opacity:.8;line-height:1.8;margin-bottom:32px;max-width:460px;font-weight:300}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn-gold{background:#D4AF37;color:#fff;padding:14px 34px;text-decoration:none;font-weight:600;font-size:.84rem;letter-spacing:.1em;text-transform:uppercase;border-radius:2px;transition:opacity .2s,transform .15s}
+.btn-gold:hover{opacity:.9;transform:translateY(-2px)}
+.btn-ghost{background:transparent;border:1px solid rgba(255,255,255,.4);color:#fff;padding:13px 28px;text-decoration:none;font-size:.84rem;letter-spacing:.08em;text-transform:uppercase;border-radius:2px;transition:background .2s}
+.btn-ghost:hover{background:rgba(255,255,255,.08)}
+/* TRUST BAR */
+.trust-bar{background:#8B0000;display:grid;grid-template-columns:repeat(2,1fr)}
+@media(min-width:640px){.trust-bar{grid-template-columns:repeat(4,1fr)}}
+.trust-item{padding:22px 16px;text-align:center;border-right:1px solid rgba(255,255,255,.08)}
+.trust-item:last-child{border:none}
+.trust-num{font-family:'Cormorant Garamond',serif;font-size:1.9rem;font-weight:700;color:#D4AF37;line-height:1}
+.trust-lbl{font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.48);margin-top:5px}
+/* SECTIONS */
+section{padding:68px 5vw}
+.container{max-width:1000px;margin:0 auto}
+.sec-label{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:#D4AF37;margin-bottom:10px;font-weight:500}
+.sec-h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);color:#8B0000;margin-bottom:14px;font-weight:700;letter-spacing:-.01em}
+/* ABOUT */
+.about-grid{display:grid;grid-template-columns:1fr;gap:44px;align-items:center}
+@media(min-width:768px){.about-grid{grid-template-columns:1fr 1fr}}
+.about-img-wrap{position:relative}
+.about-img{width:100%;aspect-ratio:4/5;object-fit:cover;box-shadow:0 20px 56px rgba(0,0,0,.18)}
+.about-img-caption{position:absolute;bottom:-12px;right:-12px;background:#D4AF37;color:#fff;padding:12px 18px;font-size:.78rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.about-text p{color:#5a4030;line-height:1.88;margin-bottom:14px;font-size:.93rem;font-weight:300}
+.hl-list{list-style:none;margin-top:20px;border-top:1px solid #ede0c4}
+.hl-list li{padding:10px 0 10px 22px;position:relative;color:#5a4030;font-size:.87rem;border-bottom:1px solid #ede0c4;font-weight:300}
+.hl-list li:before{content:'◆';color:#D4AF37;position:absolute;left:0;font-size:.6rem;top:14px}
+/* PRODUCTS */
+.products-bg{background:#fff}
+.prod-grid{display:grid;grid-template-columns:1fr;gap:20px;margin-top:40px}
+@media(min-width:480px){.prod-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.prod-grid{grid-template-columns:repeat(3,1fr)}}
+.prod-card{border:1px solid #ede0c4;background:#fdfcf7;padding:28px 24px;transition:transform .22s,box-shadow .22s;position:relative;overflow:hidden}
+.prod-card:hover{transform:translateY(-5px);box-shadow:0 12px 32px rgba(0,0,0,.1)}
+.prod-card:before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,#8B0000,#D4AF37)}
+.prod-icon{font-size:1.6rem;margin-bottom:14px;display:block}
+.prod-card h3{font-family:'Cormorant Garamond',serif;color:#8B0000;font-size:1.15rem;font-weight:700;margin-bottom:10px}
+.prod-card p{color:#7a6040;font-size:.86rem;line-height:1.65;font-weight:300}
+/* PARALLAX */
+.ps-wrap{position:relative;min-height:360px;display:flex;align-items:center;overflow:hidden}
+#ps{position:absolute;inset:-20%;width:140%;height:140%;background-image:url('https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=Ab43m-tfity7T8_K9htp0B-P4O9ITuwwxJB1yLJZT5V-C0M46b-jLK_RrAArT1PJkWkhGkLwd1piADSBUbr8votNwqZEqwZJv2wyaL-f5Fzwf16WMzkirYxx9TeP_u6vIQrHaLphtNnUfM1VJh3b0sfSgJPdW8pzDsXqUnFUOYznfd2C9638DjLbxO29CZRx-OUCCSrj6g-CN6Q6mE9aKnG8zP2iY2cYqodNQHfkLF9PiT29N4fIoVyC5yNe5XWsKbITCQrhiyJg9It5M4e1mTA1EsHxbFxgAcaOFWvaCl0yFbZnln7-uRqv29VJNbUQ_JKs1F5qXiw05ZW6xIv0eNQGR7rv61uDezjwAI8DFjI2GsAwBkpjfFNKxKcCm2RrtqB7r7AOZNE0vy9Jxe_qs7VyY08iEN7KPfpdLKJ8PhAwHXbPu1ek-m0saaszs092SWdj&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs');background-size:cover;background-position:center;will-change:transform;filter:brightness(.4)}
+.ps-overlay{position:absolute;inset:0}
+.ps-content{position:relative;z-index:2;padding:60px 5vw;color:#fff;max-width:560px}
+.ps-content .sec-label{color:rgba(255,255,255,.5)}
+.ps-content .sec-h2{color:#fff}
+.ps-content p{color:rgba(255,255,255,.65);margin-bottom:28px;font-size:.94rem;line-height:1.75;font-weight:300}
+/* GALLERY */
+.gallery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+@media(min-width:600px){.gallery-grid{grid-template-columns:repeat(3,1fr)}}
+.gallery-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;transition:opacity .3s}
+.gallery-grid img:hover{opacity:.85}
+/* REVIEWS */
+.rv-grid{display:grid;grid-template-columns:1fr;gap:18px;margin-top:40px}
+@media(min-width:640px){.rv-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:960px){.rv-grid{grid-template-columns:repeat(3,1fr)}}
+.rv-card{border:1px solid #ede0c4;padding:26px;background:#fdfcf7}
+.rv-stars{color:#D4AF37;margin-bottom:10px;font-size:1rem}
+.rv-text{color:#5a4030;font-size:.9rem;line-height:1.78;font-style:italic;margin-bottom:14px;font-weight:300}
+.rv-author{color:#8B0000;font-size:.8rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+/* CONTACT */
+.contact-grid{display:grid;grid-template-columns:1fr;gap:24px}
+@media(min-width:768px){.contact-grid{grid-template-columns:1fr 1fr}}
+.ci-row{display:flex;align-items:flex-start;gap:14px;padding:18px;border:1px solid #ede0c4;background:#fdfcf7}
+.ci-icon{width:38px;height:38px;background:#8B000010;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1rem;border:1px solid #ede0c4}
+.ci-row h4{font-size:.7rem;color:#9a8060;font-weight:500;margin-bottom:4px;text-transform:uppercase;letter-spacing:.1em}
+.ci-row a,.ci-row p{color:#8B0000;text-decoration:none;font-size:.9rem;font-weight:600}
+.contact-cta{background:#8B0000;padding:36px;color:#fff;display:flex;flex-direction:column;gap:14px}
+.contact-cta h3{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:700}
+.contact-cta p{opacity:.75;font-size:.9rem;line-height:1.65;font-weight:300}
+.cta-btn-w{background:#D4AF37;color:#fff;padding:14px 28px;text-decoration:none;font-weight:600;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;display:inline-block;transition:opacity .2s}
+.cta-btn-w:hover{opacity:.88}
+.cta-btn-outline{border:1px solid rgba(255,255,255,.4);color:rgba(255,255,255,.85);padding:12px 26px;text-decoration:none;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;display:inline-block;margin-top:8px}
+footer{background:#0a0600;color:#7a6040;text-align:center;padding:24px;font-size:.78rem;letter-spacing:.04em}
+</style>
+</head>
+<body>
+<nav>
+  <span class="nav-brand">Pehnawa Fashion House</span>
+  <a href="https://wa.me/919636102080?text=Hi!%20I%20visited%20your%20website%20and%20I'm%20interested%20in%20exploring%20the%20clothing%20collection%20at%20Pehnawa%20Fashion%20House.%20Could%20you%20please%20share%20more%20details%20about%20your%20latest%20arrivals%20and%20offers%3F" class="nav-cta">Enquire</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-bg" id="hp"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">⭐ 5/5 · Trusted Since Day One</p>
+    <h1>Wear Your Story, Style Your World</h1>
+    <p>Discover the finest collection of clothing that blends tradition with modern elegance at Pehnawa Fashion House in Jaipur.</p>
+    <div class="hero-btns">
+      <a href="https://wa.me/919636102080?text=Hi!%20I%20visited%20your%20website%20and%20I'm%20interested%20in%20exploring%20the%20clothing%20collection%20at%20Pehnawa%20Fashion%20House.%20Could%20you%20please%20share%20more%20details%20about%20your%20latest%20arrivals%20and%20offers%3F" class="btn-gold">Visit Us Today &amp; Explore the Collection</a>
+      <a href="tel:096361 02080" class="btn-ghost">📞 Call Us</a>
+    </div>
+  </div>
+</div>
+
+<div class="trust-bar" data-r>
+  <div class="trust-item"><div class="trust-num">5/5</div><div class="trust-lbl">Rating</div></div>
+  <div class="trust-item"><div class="trust-num">✓</div><div class="trust-lbl">Certified</div></div>
+  <div class="trust-item"><div class="trust-num">100%</div><div class="trust-lbl">Genuine</div></div>
+  <div class="trust-item"><div class="trust-num">Local</div><div class="trust-lbl">Trusted</div></div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap" data-r>
+        <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=Ab43m-tsQtGJkLvsNhV-jp5LZ24vHrAwj-KZ9mmuUWBOiEMT0KVfj2N_aMBOnIom2R3Xt-36G6fSrGgLgYY9oi0VKN2AjayPL2fDsH6F39q5ehQwwrLrEu9emro2lIKbG4YoV6IxWf-ekkdt79kQSSH4nsbnCkikzu9OytoBzhs0J3n9O3KN8QPUH7JpJ6_M8GQjB8uN1K1H6VoMsKb9Bk67EY9DGwwQk8hYcnyQ-xB1JyUuklqsmPcwEGOfh6tO6Q5QBJAPyTPDBudzv0IjPfLLil0zVbk04HAy0KUMp_JeP0m3dQW-d2U3Ss-Wdip2zsSGQkx2fH6DvWnGRujZssJWVZ-TFW7AewxF8CE3822JQBPWDskVECm2kJsc2cZRR6MuPrGKLqM-DuYgUPaVv210PEs8JwtFhyYClgCja_x-Njph_BJJ5E6SDRZKyWrGug&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Pehnawa Fashion House" class="about-img" loading="lazy" onerror="this.src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=Ab43m-tsQtGJkLvsNhV-jp5LZ24vHrAwj-KZ9mmuUWBOiEMT0KVfj2N_aMBOnIom2R3Xt-36G6fSrGgLgYY9oi0VKN2AjayPL2fDsH6F39q5ehQwwrLrEu9emro2lIKbG4YoV6IxWf-ekkdt79kQSSH4nsbnCkikzu9OytoBzhs0J3n9O3KN8QPUH7JpJ6_M8GQjB8uN1K1H6VoMsKb9Bk67EY9DGwwQk8hYcnyQ-xB1JyUuklqsmPcwEGOfh6tO6Q5QBJAPyTPDBudzv0IjPfLLil0zVbk04HAy0KUMp_JeP0m3dQW-d2U3Ss-Wdip2zsSGQkx2fH6DvWnGRujZssJWVZ-TFW7AewxF8CE3822JQBPWDskVECm2kJsc2cZRR6MuPrGKLqM-DuYgUPaVv210PEs8JwtFhyYClgCja_x-Njph_BJJ5E6SDRZKyWrGug&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs'">
+        <div class="about-img-caption">Est. 2026</div>
+      </div>
+      <div data-r data-d="2">
+        <p class="sec-label">Our Story</p>
+        <h2 class="sec-h2">Pehnawa Fashion House</h2>
+        <p class="about-text" style="color:#5a4030;line-height:1.88;margin-bottom:14px;font-size:.93rem;font-weight:300">Pehnawa Fashion House is a premier clothing destination nestled in the heart of Durgapura, Jaipur, Rajasthan. We bring you a curated selection of fashion that celebrates the rich textile heritage of Rajasthan while embracing contemporary styles. Whether you are looking for everyday wear, festive outfits, or special occasion ensembles, our store offers something for every taste and budget.</p><p class="about-text" style="color:#5a4030;line-height:1.88;margin-bottom:14px;font-size:.93rem;font-weight:300">Located conveniently at Dalda Factory Road, Maharani Farm, Nalanda Vihar, we are open every day of the week from 11:00 AM to 9:00 PM, making it easy for you to shop at your convenience. Our knowledgeable and friendly staff are always ready to help you find the perfect outfit. At Pehnawa Fashion House, we believe that great fashion should be accessible to everyone, and we are committed to delivering quality, style, and value with every purchase.</p>
+        <ul class="hl-list"><li>Open 7 days a week from 11:00 AM to 9:00 PM for your shopping convenience</li><li>Wide variety of ethnic, fusion, and contemporary clothing for men, women, and kids</li><li>Conveniently located in Durgapura, Jaipur with easy accessibility</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="products-bg">
+  <div class="container">
+    <div data-r><p class="sec-label">Collections</p><h2 class="sec-h2">What We Offer</h2></div>
+    <div class="prod-grid">
+      <div class="prod-card" data-r data-d="1"><span class="prod-icon">💎</span><h3>Men's Clothing</h3><p>A wide range of men's wear including kurtas, shirts, trousers, sherwanis, and casual wear suited for every occasion.</p></div><div class="prod-card" data-r data-d="2"><span class="prod-icon">✨</span><h3>Women's Clothing</h3><p>Elegant sarees, salwar suits, lehengas, kurtis, and fusion wear that reflect both traditional charm and modern fashion.</p></div><div class="prod-card" data-r data-d="3"><span class="prod-icon">🏆</span><h3>Kids' Fashion</h3><p>Adorable and comfortable clothing for children, from festive ethnic wear to everyday casual outfits.</p></div><div class="prod-card" data-r data-d="1"><span class="prod-icon">⭐</span><h3>Festive &amp; Bridal Collection</h3><p>Specially curated festive and bridal outfits featuring rich fabrics, intricate embroidery, and vibrant Rajasthani designs.</p></div><div class="prod-card" data-r data-d="2"><span class="prod-icon">🎁</span><h3>Custom Styling Assistance</h3><p>In-store styling guidance to help you choose the right outfit, fabric, and accessories for any occasion.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="ps-wrap" data-r>
+  <div id="ps"></div>
+  <div class="ps-overlay"></div>
+  <div class="ps-content">
+    <p class="sec-label">Visit Our Store</p>
+    <h2 class="sec-h2">Experience It In Person</h2>
+    <p>99, Dalda Factory Rd, Maharani Farm, Nalanda Vihar, Durgapura, Jaipur, Rajasthan 302018, India</p>
+    <a href="https://wa.me/919636102080?text=Hi!%20I%20visited%20your%20website%20and%20I'm%20interested%20in%20exploring%20the%20clothing%20collection%20at%20Pehnawa%20Fashion%20House.%20Could%20you%20please%20share%20more%20details%20about%20your%20latest%20arrivals%20and%20offers%3F" style="background:#D4AF37;color:#fff;padding:13px 32px;text-decoration:none;font-weight:600;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;display:inline-block">💬 WhatsApp Us</a>
+  </div>
+</div>
+
+<section><div class="container"><div data-r><p class="sec-label">Gallery</p><h2 class="sec-h2">Our Collection</h2></div><div class="gallery-grid" style="margin-top:28px"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=Ab43m-tsQtGJkLvsNhV-jp5LZ24vHrAwj-KZ9mmuUWBOiEMT0KVfj2N_aMBOnIom2R3Xt-36G6fSrGgLgYY9oi0VKN2AjayPL2fDsH6F39q5ehQwwrLrEu9emro2lIKbG4YoV6IxWf-ekkdt79kQSSH4nsbnCkikzu9OytoBzhs0J3n9O3KN8QPUH7JpJ6_M8GQjB8uN1K1H6VoMsKb9Bk67EY9DGwwQk8hYcnyQ-xB1JyUuklqsmPcwEGOfh6tO6Q5QBJAPyTPDBudzv0IjPfLLil0zVbk04HAy0KUMp_JeP0m3dQW-d2U3Ss-Wdip2zsSGQkx2fH6DvWnGRujZssJWVZ-TFW7AewxF8CE3822JQBPWDskVECm2kJsc2cZRR6MuPrGKLqM-DuYgUPaVv210PEs8JwtFhyYClgCja_x-Njph_BJJ5E6SDRZKyWrGug&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Pehnawa Fashion House" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=Ab43m-tfity7T8_K9htp0B-P4O9ITuwwxJB1yLJZT5V-C0M46b-jLK_RrAArT1PJkWkhGkLwd1piADSBUbr8votNwqZEqwZJv2wyaL-f5Fzwf16WMzkirYxx9TeP_u6vIQrHaLphtNnUfM1VJh3b0sfSgJPdW8pzDsXqUnFUOYznfd2C9638DjLbxO29CZRx-OUCCSrj6g-CN6Q6mE9aKnG8zP2iY2cYqodNQHfkLF9PiT29N4fIoVyC5yNe5XWsKbITCQrhiyJg9It5M4e1mTA1EsHxbFxgAcaOFWvaCl0yFbZnln7-uRqv29VJNbUQ_JKs1F5qXiw05ZW6xIv0eNQGR7rv61uDezjwAI8DFjI2GsAwBkpjfFNKxKcCm2RrtqB7r7AOZNE0vy9Jxe_qs7VyY08iEN7KPfpdLKJ8PhAwHXbPu1ek-m0saaszs092SWdj&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Pehnawa Fashion House" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=Ab43m-sKXWG5R2S9x3MxPQZd9asfVIeSU9eUXsWozLf0T8ah0jY8xojscTkH-f6zAjV2Ja_js8pGY0nSIuum-rDPdVO2NIZRCvwqq6G3z_GqX8j8gmBE2SizqpnKY2YTk2DSYyqP1gui9wiSpCG77vXrGJpDTkUSi51yNus1XWT8xQUUM3Tko4Voq5OAmykYAYXC-rXQYQ_5nU0-1tYSvzCTdmKj0svkr4xO_EZKMW7CtiHheQ7uaE0DMfdwlzGER1aDU5YEM09b2H8F6g1lhIXbfymif1unoyqwqTH8Wb47ivgy0HW5twmwm_J7mJ8PqvrU666oQOn5b4oFZ4KfvxtYtc42RU-vx7CR3dqty4QPCNCeS38vhZ9WvgHhhQoxAYii-EnQZ2ALojRa4Q2EE7yMm4XBMPOIsGvQgO41Pp0uqcF7LBknKqcF_d9f00n-n2ht&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Pehnawa Fashion House" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=Ab43m-tq7CqCFRv0eH5jrCz-5J_SEwBra9PQ1QhKZPqUnFSVLxNF5yO6SoyuNYVHVgMB6xlAbEEa3_ESc_GbN_riMNGJ-JL28K3-9hu9p2THRqKU75SCyrirCmxlgc934-kwhR_6I3mX94YPEKq_cl1sacde-CzQLIx8t59eHzp5LRorgMT7D133FRiZ0nOR17rDL8JFDpBzUa79PoT57ZkSkIVWnVi8sP0A4Li2Ol0jOfd0R80Gra0kFuotHEWL1WT3nw-nviGRjb771TFfb_XyQmfRs5A8NsaZWE1Pb2-8KrRC9YpCf3tTFqnIB72VTCeTVQEzdhGgbTn_2WkuQvxHEbjzzuX2b9WOZTXZN86kKQvIHpwAd3Dy8V9sJ086bgL5Ir_WFsqRQkbagiLriAdE3KbYCPh91zp6RP6vmSr_y7LP0mXkGLxf4ixPbqud1UIP&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Pehnawa Fashion House" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=Ab43m-vevkaXmjDvYBjEfciKooQwZHFEiFgs02rC0ekDDTI6_fkjKAFChv7v-CrFp6tkQe96FrGt81KAcrXZshC9IHMDRnXSF5vjuvAOAhjozjliNNCu6ymG9sy5E7FLdhByC5Di7M55AAAjayTW2XlrMBFLlUvMRMAbA_AqcPn_EJiVmtZN5VTBqhEFJlJBLRJtYla_bQabk8U6qhnO0soE57Bn_FPc1ShH8t-VZwvpBH1z55oalIsjUqG7Pkk04pdBfF_bx7-6Wq_MzY4AHq22agIWTzkJhlHonI4SlaZPQSpZ5xT7RZ6QeVzrrmyW1YKhjedJHhu86kcqvSpDteK8l2e2rQWc_B8vLJicT0GhD8-ZtZ8lyPNhKGs2_iwWbIc8Nq9ZoZBHE9WpebO3VSlYsS5m_mjze0XlQesQJRPOpE2eeoCwAXLYcJ3om29amfvd&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Pehnawa Fashion House" loading="lazy" onerror="this.parentElement.remove()"></div></div></section>
+
+<section>
+  <div class="container">
+    <div data-r><p class="sec-label">Reviews</p><h2 class="sec-h2">What Customers Say</h2></div>
+    <div class="rv-grid">
+      <div class="rv-card" data-r data-d="NaN"><div class="rv-stars">★★★★★</div><p class="rv-text">"Pehnawa Fashion House has an amazing collection of ethnic wear. I found the perfect lehenga for my sister's wedding here. Highly recommended!"</p><div class="rv-author">— Priya Sharma</div></div><div class="rv-card" data-r data-d="NaN"><div class="rv-stars">★★★★★</div><p class="rv-text">"Great variety and very helpful staff. The kurtas I bought are of excellent quality and very reasonably priced."</p><div class="rv-author">— Rahul Verma</div></div><div class="rv-card" data-r data-d="NaN"><div class="rv-stars">★★★★★</div><p class="rv-text">"A go-to place for all festive shopping in Jaipur. Love their collection and the warm service. Will definitely visit again!"</p><div class="rv-author">— Sunita Agarwal</div></div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#f7f2e8">
+  <div class="container">
+    <div class="contact-grid">
+      <div style="display:flex;flex-direction:column;gap:14px" data-r>
+        <div data-r><p class="sec-label">Find Us</p><h2 class="sec-h2">Visit Our Store</h2></div>
+        <div class="ci-row"><div class="ci-icon">📞</div><div><h4>Phone</h4><a href="tel:096361 02080">096361 02080</a></div></div>
+        <div class="ci-row"><div class="ci-icon">📍</div><div><h4>Address</h4><p>99, Dalda Factory Rd, Maharani Farm, Nalanda Vihar, Durgapura, Jaipur, Rajasthan 302018, India</p></div></div>
+        <div class="ci-row"><div class="ci-icon">🕐</div><div><h4>Hours</h4><p>Monday: 11:00 AM – 9:00 PM | Tuesday: 11:00 AM – 9:00 PM | Wednesday: 11:00 AM – 9:00 PM | Thursday: 11:00 AM – 9:00 PM | Friday: 11:00 AM – 9:00 PM | Saturday: 11:00 AM – 9:00 PM | Sunday: 11:00 AM – 9:00 PM</p></div></div>
+        <div class="ci-row"><div class="ci-icon">🗺️</div><div><h4>Map</h4><a href="https://maps.google.com/?cid=8287779149338807803">View on Google Maps</a></div></div>
+      </div>
+      <div class="contact-cta" data-r data-d="2">
+        <h3>Get in Touch</h3>
+        <p>Browse our latest collection or enquire about custom orders. We'd love to hear from you.</p>
+        <a href="https://wa.me/919636102080?text=Hi!%20I%20visited%20your%20website%20and%20I'm%20interested%20in%20exploring%20the%20clothing%20collection%20at%20Pehnawa%20Fashion%20House.%20Could%20you%20please%20share%20more%20details%20about%20your%20latest%20arrivals%20and%20offers%3F" class="cta-btn-w">💬 Chat on WhatsApp</a>
+        <a href="tel:096361 02080" class="cta-btn-outline">📞 096361 02080</a>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>© 2026 Pehnawa Fashion House · 99, Dalda Factory Rd, Maharani Farm, Nalanda Vihar, Durgapura, Jaipur, Rajasthan 302018, India</footer>
+<a href="https://wa.me/919636102080?text=Hi!%20I%20visited%20your%20website%20and%20I'm%20interested%20in%20exploring%20the%20clothing%20collection%20at%20Pehnawa%20Fashion%20House.%20Could%20you%20please%20share%20more%20details%20about%20your%20latest%20arrivals%20and%20offers%3F" class="wa-fab" aria-label="WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+// Scroll-reveal
+(function(){
+  var els=document.querySelectorAll('[data-r]');
+  if(!els.length)return;
+  var obs=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('r-in');obs.unobserve(e.target);}});
+  },{threshold:0.1,rootMargin:'0px 0px -48px 0px'});
+  els.forEach(function(el){obs.observe(el);});
+})();
+// Nav shadow
+(function(){
+  var nav=document.querySelector('nav');
+  if(!nav)return;
+  window.addEventListener('scroll',function(){nav.classList.toggle('nav-s',window.scrollY>50);},{passive:true});
+})();
+// Parallax
+if(window.innerWidth>768){
+  var hp=document.getElementById('hp'),ps=document.getElementById('ps');
+  window.addEventListener('scroll',function(){
+    var y=window.scrollY;
+    if(hp)hp.style.transform='translateY('+y*.3+'px)';
+    if(ps){var r=ps.closest('.ps-wrap').getBoundingClientRect();ps.style.transform='translateY('+r.top*.2+'px)';}
+  },{passive:true});
+}
+</script>
+</body></html>
